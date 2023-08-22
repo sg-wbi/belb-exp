@@ -1,0 +1,14 @@
+,rbes,genbioel,arboel,biosyn
+gnormplus,0.87,0.21,0.36,
+nlm_gene,0.76,0.13,0.23,
+ncbi_disease,0.94,0.89,0.86,0.83
+bc5cdr_disease,0.94,0.92,0.88,0.88
+bc5cdr_chemical,0.82,0.95,0.88,0.85
+nlm_chem,0.67,0.75,0.72,0.67
+linnaeus,0.99,0.81,0.74,0.93
+s800,0.93,0.93,0.79,0.88
+bioid_cell_line,0.82,0.96,0.95,0.82
+medmentions,0.58,0.57,0.69,
+snp,0.94,,,
+osiris,0.91,,,
+tmvar,0.88,,,

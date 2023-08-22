@@ -1,0 +1,10 @@
+{
+ "obsolete": 6,
+ "notinkb_history": {
+  "MESH:C531767": "-",
+  "MESH:C531616": "-",
+  "MESH:C537630": "-"
+ },
+ "tp": 3582,
+ "ner_recall": 0.82
+}

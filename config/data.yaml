@@ -1,0 +1,6 @@
+belb_dir : '/vol/home-vol3/wbi/gardasam/data/belb'
+data_dir : '/vol/fob-wbia-vol1/wbi/gardasam/data/belb-tokenized'
+exp_dir : '/vol/fob-wbia-vol1/wbi/gardasam/data/belb-dr/testing'
+index_batch_size : 2048
+index_shard_size : 1e7
+load_last: false

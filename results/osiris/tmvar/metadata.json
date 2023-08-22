@@ -1,0 +1,10 @@
+{
+ "obsolete": 7,
+ "notinkb_history": {
+  "8179183(Expired)": "-",
+  "20399075": "-",
+  "12720459(Expired)": "-"
+ },
+ "tp": 176,
+ "ner_recall": 0.67
+}

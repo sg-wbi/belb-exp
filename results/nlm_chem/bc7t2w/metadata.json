@@ -1,0 +1,12 @@
+{
+ "obsolete": 23,
+ "notinkb_history": {
+  "MESH:C000615541": "-",
+  "MESH:C501909": "-",
+  "MESH:D000077330": "-",
+  "MESH:C525640": "-",
+  "MESH:D015683": "-",
+  "MESH:C032652": "-"
+ },
+ "ner_recall": 1.0
+}

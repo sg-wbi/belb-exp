@@ -1,0 +1,8 @@
+{
+ "obsolete": 1,
+ "notinkb_history": {
+  "MESH:C535341": "-"
+ },
+ "tp": 787,
+ "ner_recall": 0.82
+}
