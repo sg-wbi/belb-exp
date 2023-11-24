@@ -1,8 +1,26 @@
 # BELB Benchmark
 
-Code base to reproduce benchmarking experiments on BELB (Biomedical Entity Linking Benchmark) reported in \[1\].
+Code base to reproduce benchmarking experiments on BELB (Biomedical Entity Linking Benchmark) reported in:
 
-We assume you have a working installation of `belb` in your python environment:
+```
+@article{10.1093/bioinformatics/btad698,
+    author = {Garda, Samuele and Weber-Genzel, Leon and Martin, Robert and Leser, Ulf},
+    title = {{BELB}: a {B}iomedical {E}ntity {L}inking {B}enchmark},
+    journal = {Bioinformatics},
+    pages = {btad698},
+    year = {2023},
+    month = {11},
+    issn = {1367-4811},
+    doi = {10.1093/bioinformatics/btad698},
+    url = {https://doi.org/10.1093/bioinformatics/btad698},
+    eprint = {https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad698/53483107/btad698.pdf},
+}
+
+```
+
+## Setup
+
+We assume you have a working installation of [belb](https://github.com/sg-wbi/belb) in your python environment:
 
 ```bash
 git clone https://github.com/sg-wbi/belb
@@ -16,9 +34,11 @@ and other requirements:
 (belb-venv) user $ pip install -r requirements.txt
 ```
 
+## Models
+
 There are two type of models: rule-based entity-specific and those based on pretrained language models (PLM).
 
-## Rule-based entity-specific
+### Rule-based entity-specific
 
 | Entity    |                                                                                          | Status | Note                                   |
 | --------- | ---------------------------------------------------------------------------------------- | ------ | -------------------------------------- |
@@ -49,21 +69,21 @@ E.g. to run GNormPlus:
 (belb) user $ ./bin/run_gnormplus.sh <BELB directory> <tool directory>
 ```
 
-### BC7T2W
+#### BC7T2W
 
 See instructions in corresponding [README.md](benchmark/bc7t2w/README.md)
 
-### SciSpacy
+#### SciSpacy
 
 ```bash
 (belb) user $ python -m benchmark.scispacy.scispacy --run output --in_dir test --belb_dir ~/data/belb
 ```
 
-### MetaMap
+#### MetaMap
 
 See instructions in corresponding [README.md](benchmark/metamap/README.md)
 
-## PLM-based
+### PLM-based
 
 - [arboEL](https://github.com/dhdhagar/arboEL)
 - [GenBioEL](https://github.com/Yuanhy1997/GenBioEL)
